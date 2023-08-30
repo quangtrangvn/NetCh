@@ -1,0 +1,72 @@
+{
+  "Server": [],
+  "ACL": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl",
+  "AioDNS": {
+    "ChinaDNS": "223.5.5.5",
+    "OtherDNS": "1.1.1.1",
+    "Protocol": "tcp",
+    "RulePath": "bin\\china_site_list"
+  },
+  "BootShadowsocksFromDLL": true,
+  "BypassIPs": [],
+  "CheckBetaUpdate": false,
+  "CheckUpdateWhenOpened": false,
+  "DetectionTick": 10,
+  "ExitWhenClosed": false,
+  "HTTPLocalPort": 2802,
+  "Language": "en-US",
+  "LocalAddress": "127.0.0.1",
+  "MinimizeWhenStarted": false,
+  "ModeComboBoxSelectedIndex": 0,
+  "ModifiedDNS": "1.1.1.1,8.8.8.8",
+  "ModifySystemDNS": false,
+  "PAC": "https://raw.githubusercontent.com/HMBSbige/Text_Translation/master/ShadowsocksR/ss_white.pac",
+  "Pac_Port": 2803,
+  "ProcessProxyProtocol": "Both",
+  "ProfileCount": 4,
+  "Profiles": [],
+  "ProfileTableColumnCount": 5,
+  "RedirectorSS": false,
+  "RedirectorTCPPort": 3901,
+  "RequestTimeout": 10000,
+  "ResolveServerHostname": false,
+  "RunAtStartup": true,
+  "ServerComboBoxSelectedIndex": 0,
+  "ServerTCPing": true,
+  "Socks5LocalPort": 2801,
+  "StartedPingInterval": -1,
+  "StartWhenOpened": false,
+  "StopWhenExited": true,
+  "STUN_Server": "stun.syncthing.net",
+  "STUN_Server_Port": 3478,
+  "SubscribeLink": [],
+  "TUNTAP": {
+    "Address": "10.0.236.10",
+    "DNS": [
+      "1.1.1.1"
+    ],
+    "Gateway": "10.0.236.1",
+    "Netmask": "255.255.255.0",
+    "ProxyDNS": true,
+    "UseCustomDNS": true,
+    "UseFakeDNS": false
+  },
+  "UDPSocketPort": 18291,
+  "UpdateServersWhenOpened": true,
+  "UseProxyToUpdateSubscription": false,
+  "V2RayConfig": {
+    "AllowInsecure": false,
+    "KcpConfig": {
+      "congestion": false,
+      "downlinkCapacity": 100,
+      "mtu": 1350,
+      "readBufferSize": 2,
+      "tti": 50,
+      "uplinkCapacity": 12,
+      "writeBufferSize": 2
+    },
+    "UseMux": false,
+    "V2rayNShareLink": true,
+    "XrayCone": true
+  }
+}
